@@ -728,12 +728,12 @@
           delay: 2000,
         },
         breakpoints: {
-          768: {
+          991: {
             slidesPerView: 3,
           },
         }
       });
-      
+
       let previousLink = null;
       function addClassToLink(event, className) {
         event.preventDefault();
@@ -750,14 +750,13 @@
           previousLink = currentLink;
         }
       }
-
       const links = document.querySelectorAll('.my-work__methods__list-item a');
       links.forEach((link, index) => {
           link.addEventListener('click', (event) => {
             const classNames = ['visual-design', 'case-study', 'projects'];
             addClassToLink(event, classNames[index]);
           });
-        });
+        }); 
     </script>
 	</body>
 </html>

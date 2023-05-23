@@ -353,7 +353,7 @@ a {
     text-align: center;
   }
   .my-work .my-work__methods {
-    justify-content: flex-start;
+    display: block;
   }
   .my-work .my-work__methods__list {
     justify-content: space-between;
@@ -363,7 +363,7 @@ a {
     line-height: 22px;
   }
   .my-work .my-work__methods__list-item:not(:last-child) {
-    margin-right: 1rem;
+    margin-right: 0;
   }
   .my-work .my-work__methods__list-item svg {
     margin-right: 0.25rem;

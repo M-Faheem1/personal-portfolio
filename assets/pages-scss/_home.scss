@@ -150,7 +150,7 @@
       text-align: center;
     }
     #{&}__methods {
-      justify-content: flex-start;
+      display: block;
     }
     #{&}__methods__list {
       justify-content: space-between;
@@ -160,7 +160,7 @@
           line-height: 22px;
           }
         &:not(:last-child) {
-          margin-right: 1rem;
+          margin-right: 0;
         }
         svg {
           margin-right: .25rem;
