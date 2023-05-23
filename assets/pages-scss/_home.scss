@@ -171,7 +171,7 @@
       flex-direction: column;
     }
     #{&}__card {
-      width: 329px;
+      width: auto;
       height: 448px;
     }
   }
@@ -404,15 +404,23 @@
     }
   }
   @media screen and (max-width:480px) { 
-    .swiper-buttons {
-      display: none;
-    }
+   
     &__card {
-      width: 327px;
+      width: auto;
     }
     &__card--image {
-      width: 327px;
+      width: auto;
       height: 206px;
+    }
+    #{&}__swiper{
+      &__heading-subheading {
+        text-align: center;
+        margin-bottom: 4.5rem;
+      }
+      .swiper-buttons {
+        top: 160px;
+        right: 120px;
+      }
     }
   }
 }
